@@ -29,5 +29,6 @@ RUN buildDeps=' \
 	&& rm -rf /go \
 	&& echo "Build complete."
 
+EXPOSE 8080
 
 ENTRYPOINT [ "pastebinit-server" ]
